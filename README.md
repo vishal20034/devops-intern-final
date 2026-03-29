@@ -18,3 +18,14 @@ A complete DevOps workflow using open-source tools:
 ### Run hello.py
 ```bash
 python3 hello.py
+
+
+## CI/CD Status
+
+![CI](https://github.com/vishal20034/devops-intern-final/actions/workflows/ci.yml/badge.svg)
+
+## Docker Setup
+
+### Build Docker Image
+```bash
+docker build -t my-app .
