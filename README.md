@@ -32,3 +32,13 @@ python3 hello.py
 docker build -t my-app .
 docker run my-app
 
+### Nomad Job
+```bash
+# Make sure Nomad agent is running in another terminal:
+sudo nomad agent -dev -bind 0.0.0.0 -log-level INFO
+
+# In a new terminal, run the job:
+nomad job run nomad/hello.nomad
+
+# Check status:
+nomad job status hello
