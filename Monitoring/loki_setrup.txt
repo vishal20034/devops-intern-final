@@ -1,0 +1,16 @@
+Grafana Loki Setup
+
+1. Started Loki using Docker:
+docker run -d --name loki -p 3100:3100 grafana/loki:latest
+
+2. Verified container is running:
+docker ps
+
+3. Checked logs:
+docker logs loki
+
+4. Loki runs on:
+http://localhost:3100
+
+5. Purpose:
+Used Loki for basic log monitoring of container logs.
