@@ -22,10 +22,13 @@ python3 hello.py
 
 ## CI/CD Status
 
-![CI](https://github.com/vishal20034/devops-intern-final/actions/workflows/ci.yml/badge.svg)
-
+![CI Pipeline](https://github.com/vishal20034/devops-intern-final/actions/workflows/ci.yml/badge.svg)
+ 
 ## Docker Setup
+  
+## Build Docker Image
 
-### Build Docker Image
 ```bash
 docker build -t my-app .
+docker run my-app
+
